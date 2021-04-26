@@ -66,36 +66,40 @@
         android:layout_height="50dp"
         android:orientation="horizontal">
         <Button
-            android:text="delete"
+            android:text="Del"
             android:id="@+id/button1"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            app:backgroundTint="#2196F3"
             />
 
         <Button
-            android:id="@+id/button2"
+            android:visibility="gone"
+            android:id="@+id/rename"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:text="rename"
+            app:backgroundTint="#2196F3"
             />
         <Button
-            android:id="@+id/button3"
+            android:visibility="gone"
+            android:id="@+id/copy"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:text="Copy"
+            app:backgroundTint="#2196F3"
             />
         <Button
-            android:id="@+id/button4"
+            android:visibility="gone"
+            android:id="@+id/paste"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            />
-        <Button
-            android:id="@+id/button5"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:text="Paste"
+            app:backgroundTint="#2196F3"
             />
     </LinearLayout>
 </LinearLayout>
